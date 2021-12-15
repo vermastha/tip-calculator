@@ -1,0 +1,77 @@
+body {
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    width: 350px;
+    height: 500px;
+    background-color: #fff;
+    margin: 100px auto;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+p{
+    font-weight: bold;
+}
+
+h1 {
+    position: absolute;
+    left: 50%;
+    top: 90px;
+    width: 350px;
+    transform: translateX(-50%);
+    background-color: rgb(83, 27, 10);
+    color: #fff;
+    font-weight: 100;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+
+.wrapper {
+    padding: 30px;
+}
+
+input,
+select {
+    width: 80px;
+    border: none;
+    border-bottom: 1px solid rgb(83, 27, 10);
+    padding: 10px;
+}
+
+input:focus,
+select:focus {
+    border: 1px solid rgb(83, 27, 10);
+    outline: none;
+}
+
+select {
+    width: 60%;
+}
+
+button {
+    margin: 20px auto;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(83, 27, 10);
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+#people{
+    width: 100px;
+}
+
+.tip {
+    position:relative;
+    bottom: 20px;
+    text-align: center;
+    font-size: 18px;
+    display: none;
+}
